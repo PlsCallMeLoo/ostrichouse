@@ -1,0 +1,26 @@
+{
+   "name": "cyclic",
+  "version": "1.0.0",   "description": "",
+  "scripts": {
+     "build": "npm i",
+      "test": "echo \"No test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+       "url": "git+https://github.com/PlsCallMeLoo/cyclic.git"
+   },
+  "author": "",
+    "license": "ISC",
+    "bugs": {
+     "url": "https://github.com/PlsCallMeLoo/cyclic/issues"
+    },
+    "homepage": "https://github.com/PlsCallMeLoo/cyclic#readme",
+     "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^16.3.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mongoose": "^7.5.0"
+  }
+}
